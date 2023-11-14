@@ -12,7 +12,7 @@ Before you start, from the root project directory, run:
     pip install -r requirements.txt
 
     
-This project uses a kmeans algorithm to segment customers into a number of buckets as defined by the evaluation used. I started by importing all the required libraries and modules.
+This project uses a kmeans algorithm to segment customers into a number of buckets as defined by the evaluation used. I started by importing all the required libraries and modules inside the `ecommerce_segmentation.ipynb` notebook.
 The following libraries were required for this project:
 - re
 - glob
@@ -37,8 +37,7 @@ To Jump start the project and skip data wrangling/feature engineering, run the p
 2. `python3 train.py` - to build the model and save it.
 3. `python3 label_data.py` - to append cluster labels to the training data and save it to its destination path.
 
-The labelled dataframe is then read into a fresh notebook to extensively detail the attributes of each cluster with respect to `state`, `city`, 
-`payment type`, `product category`, and `price`.
+The labelled dataframe was then read into the `cluster_interpretation.ipynb` notebook to extensively detail the attributes of each cluster with respect to `state`, `payment type`, `product category`, and `price`.
 
 # Findings
 The findings from this project and detailed information about the methodology are contained in this [document](https://docs.google.com/document/d/1FbqiSLnFNdEo3Iw9fEpiuusADT5dv9hWkUm95Po21rM/edit#heading=h.gd4l5lj7nzoj).
