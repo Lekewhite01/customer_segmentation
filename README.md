@@ -7,6 +7,11 @@ This is real commercial data, it has been anonymised, and references to the comp
 The data used for this project is shared across nine separate CSV files containing `customer demographics`, `seller information`, `payment information` and `order information`.
 
 ## Approach
+Before you start, from the root project directory, run:
+
+    pip install -r requirements.txt
+
+    
 This project uses a kmeans algorithm to segment customers into a number of buckets as defined by the evaluation used. I started by importing all the required libraries and modules.
 The following libraries were required for this project:
 - re
