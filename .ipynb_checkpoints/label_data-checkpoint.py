@@ -2,7 +2,7 @@ import pickle as pkl
 import pandas as pd
 import numpy as np
 
-data = pd.read_csv("./training_data/training_data.csv")
+data = pd.read_csv("./training_data/EDA_data.csv")
 
 def load_model(filename):
     """

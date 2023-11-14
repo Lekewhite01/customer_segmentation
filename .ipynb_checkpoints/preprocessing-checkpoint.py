@@ -176,7 +176,7 @@ def main():
     training_df = final_wrangle(main_df)
     
     # Step 6: Save the processed DataFrames as a CSV file
-    main_df.to_csv("./training_data/cleaned_input_data.csv", index=False) # This data is for EDA
+    main_df.to_csv("./training_data/EDA_data.csv", index=False) # This data is for EDA
     training_df.to_csv("./training_data/training_data.csv", index=False) # This data is for model building
     
     print("DataFrames have been saved to CSV successfully")
