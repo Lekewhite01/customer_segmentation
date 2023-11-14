@@ -42,4 +42,6 @@ The labelled dataframe was then read into the `cluster_interpretation.ipynb` not
 # Findings
 The findings from this project and detailed information about the methodology are contained in this [document](https://docs.google.com/document/d/1FbqiSLnFNdEo3Iw9fEpiuusADT5dv9hWkUm95Po21rM/edit#heading=h.gd4l5lj7nzoj).
 
-**P.S. The clustering is based on high variance features for improved separation between clusters.**
+**Note** 
+- **The clustering is based on high variance features for improved separation between clusters.**
+- **The visualizations can't be previewed here on github because they are interactive plots made with plotly. Therefore, you have to clone the project into your local machine and install requirements with pip as stated above, to see the plots and interact with them.**
