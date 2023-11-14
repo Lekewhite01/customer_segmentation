@@ -40,4 +40,7 @@ To Jump start the project and skip data wrangling/feature engineering, run the p
 The labelled dataframe is then read into a fresh notebook to extensively detail the attributes of each cluster with respect to `state`, `city`, 
 `payment type`, `product category`, and `price`.
 
+# Findings
+The findings from this project and detailed information about the methodology are contained in this [document](https://docs.google.com/document/d/1FbqiSLnFNdEo3Iw9fEpiuusADT5dv9hWkUm95Po21rM/edit#heading=h.gd4l5lj7nzoj).
+
 **P.S. The clustering is based on high variance features for improved separation between clusters.**
