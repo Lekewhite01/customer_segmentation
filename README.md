@@ -26,6 +26,13 @@ The data is then explored for relationships between variables and wrangled to dr
 
 Lastly, to visualize the clusters, dimensionality reduction was applied to output the scatter plot in two dimensions.
 
+# Using the Modules
+To Jump start the project and skip data wrangling/feature engineering, run the python scripts in this order:
+1. `python3 preprocessing.py` - to produce the data for EDA and model training.
+2. `python3 train.py` - to build the model and save it.
+3. `python3 label_data.py` - to append cluster labels to the training data and save it to its destination path.
 
+The labelled dataframe is then read into a fresh notebook to extensively detail the attributes of each cluster with respect to `state`, `city`, 
+`payment type`, `product category`, and `price`.
 
 **P.S. The clustering is based on high variance features for improved separation between clusters.**
